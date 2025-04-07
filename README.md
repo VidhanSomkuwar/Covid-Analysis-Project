@@ -10,10 +10,10 @@ This project involves deep analysis of the [COVID-19 dataset by Our World in Dat
 
 ## 🔗 Dataset Source
 
-The dataset used in this project is from **Our World in Data's COVID-19 database**.
+📁 Importable Files Folder  
+All parts of the dataset required for importing are available here:  
+🔗 [COVID Import Files – Google Drive](https://drive.google.com/drive/folders/1XvnbvUXHcM9KIRyQknAEvoN18ui7WH4T?usp=drive_link)
 
-> ⚠️ Due to size limitations with SQL Server Import Wizard, the original CSV file was **split into multiple parts** and saved with `.xlsx` extension.  
-> All the required parts of the dataset are provided in this directory and can be downloaded directly from here for smooth replication and analysis.
 
 
 ---
