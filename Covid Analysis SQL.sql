@@ -31,7 +31,8 @@ ORDER BY 1,2
 --FROM CovidDeaths_1
 --WHERE TRY_CAST(total_deaths AS FLOAT) IS NOT NULL;
 
-
+    
+--Merging both the parts of the CovidDeaths file into a single table
 SELECT * 
 INTO Combined_CovidDeaths
 FROM (
@@ -40,6 +41,7 @@ FROM (
     SELECT * FROM CovidDeaths_2  -- Table 2
 ) AS Combined;
 
+--Merging both the parts of the CovidVaccinations file into a single table
 SELECT * 
 INTO Combined_Vaccinations
 FROM (
